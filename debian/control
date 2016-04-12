@@ -1,0 +1,12 @@
+Source: ros-kinetic-laser-assembler
+Section: misc
+Priority: extra
+Maintainer: David Gossow <dgossoe@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin (>= 0.5.68), ros-kinetic-filters, ros-kinetic-laser-geometry, ros-kinetic-message-filters, ros-kinetic-message-generation, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-rostest, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Homepage: http://ros.org/wiki/laser_assembler
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-laser-assembler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-filters, ros-kinetic-laser-geometry, ros-kinetic-message-filters, ros-kinetic-message-runtime, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Description: Provides nodes to assemble point clouds from either LaserScan or PointCloud messages
