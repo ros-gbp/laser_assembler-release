@@ -1,0 +1,12 @@
+Source: ros-lunar-laser-assembler
+Section: misc
+Priority: extra
+Maintainer: David Gossow <dgossoe@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin (>= 0.5.68), ros-lunar-filters, ros-lunar-laser-geometry, ros-lunar-message-filters, ros-lunar-message-generation, ros-lunar-pluginlib, ros-lunar-roscpp, ros-lunar-rostest, ros-lunar-sensor-msgs, ros-lunar-tf
+Homepage: http://ros.org/wiki/laser_assembler
+Standards-Version: 3.9.2
+
+Package: ros-lunar-laser-assembler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-filters, ros-lunar-laser-geometry, ros-lunar-message-filters, ros-lunar-message-runtime, ros-lunar-pluginlib, ros-lunar-roscpp, ros-lunar-sensor-msgs, ros-lunar-tf
+Description: Provides nodes to assemble point clouds from either LaserScan or PointCloud messages
