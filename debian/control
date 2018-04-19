@@ -1,0 +1,12 @@
+Source: ros-melodic-laser-assembler
+Section: misc
+Priority: extra
+Maintainer: Jonathan Binney <jon.binney@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin (>= 0.5.68), ros-melodic-filters, ros-melodic-laser-geometry, ros-melodic-message-filters, ros-melodic-message-generation, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-rostest, ros-melodic-sensor-msgs, ros-melodic-tf
+Homepage: http://ros.org/wiki/laser_assembler
+Standards-Version: 3.9.2
+
+Package: ros-melodic-laser-assembler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-filters, ros-melodic-laser-geometry, ros-melodic-message-filters, ros-melodic-message-runtime, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf
+Description: Provides nodes to assemble point clouds from either LaserScan or PointCloud messages
