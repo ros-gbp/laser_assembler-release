@@ -2,6 +2,12 @@
 Changelog for package laser_assembler
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.7.6 (2018-11-20)
+------------------
+* Fix compilation issues with new boost
+  See https://github.com/ros/actionlib/issues/104
+* Contributors: Tobias Fischer
+
 1.7.5 (2018-04-19)
 ------------------
 * Change maintainer to Jon Binney
