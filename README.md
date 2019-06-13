@@ -1,3 +1,26 @@
+## laser_assembler (melodic) - 1.7.7-1
+
+The packages in the `laser_assembler` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --ros-distro melodic laser_assembler` on `Thu, 13 Jun 2019 17:53:59 -0000`
+
+The `laser_assembler` package was released.
+
+Version of package(s) in repository `laser_assembler`:
+
+- upstream repository: https://github.com/ros-perception/laser_assembler.git
+- release repository: https://github.com/ros-gbp/laser_assembler-release.git
+- rosdistro version: `1.7.6-0`
+- old version: `1.7.6-0`
+- new version: `1.7.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## laser_assembler (melodic) - 1.7.6-0
 
 The packages in the `laser_assembler` repository were released into the `melodic` distro by running `/usr/bin/bloom-release laser_assembler --rosdistro melodic` on `Tue, 20 Nov 2018 23:17:36 -0000`
