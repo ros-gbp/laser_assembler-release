@@ -2,6 +2,9 @@
 Changelog for package laser_assembler
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.7.7 (2019-06-13)
+------------------
+
 1.7.6 (2018-11-20)
 ------------------
 * Fix compilation issues with new boost
