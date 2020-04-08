@@ -1,3 +1,26 @@
+## laser_assembler (noetic) - 1.7.8-1
+
+The packages in the `laser_assembler` repository were released into the `noetic` distro by running `/usr/bin/bloom-release laser_assembler --track noetic --rosdistro noetic --new-track` on `Wed, 08 Apr 2020 03:14:29 -0000`
+
+The `laser_assembler` package was released.
+
+Version of package(s) in repository `laser_assembler`:
+
+- upstream repository: https://github.com/ros-perception/laser_assembler.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.7.8-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## laser_assembler (melodic) - 1.7.7-2
 
 The packages in the `laser_assembler` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --ros-distro melodic laser_assembler` on `Thu, 13 Jun 2019 17:59:21 -0000`
